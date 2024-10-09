@@ -1,0 +1,46 @@
+body {
+    font-family: League Spartan;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF3E3;
+    color: #333;
+}
+
+header {
+    background-color: #17A2B8;
+    color: white;
+    padding: 20px 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+header nav {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.perfil img {
+    height: 40px;
+    margin: 10px;
+}
+
+.chat img {
+    height: 40px;
+    margin: 10px;
+}
+
+.notificação img {
+    height: 40px;
+    margin: 10px;
+}
+
+.carousel {
+    margin: 50px;    
+}
+
+.carousel img {
+    height: 600px;
+    
+}
