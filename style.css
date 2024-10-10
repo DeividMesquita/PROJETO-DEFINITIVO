@@ -37,10 +37,56 @@ header nav {
 }
 
 .carousel {
-    margin: 50px;    
+    margin: 50px;
 }
 
 .carousel img {
     height: 600px;
-    
+}
+
+.agendar {
+    background-color: #17A2B8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.agendar-consulta {
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.agendar-consulta h2 {
+    margin: 20px;
+    color: #FDF3E3;
+}
+
+.agendar-consulta p {
+    margin: 20px;
+    margin-top: 60px;
+    color: #FDF3E3;
+}
+
+.custom-button {
+    background-color: #F9C40F;
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-button:hover {
+    background-color: #e0b00d;
+    transform: translateY(-2px);
+  }
+  
+
+.calendario img {
+    height: 250px;
+    margin: 20px;
+    margin-right: 60px;
 }
